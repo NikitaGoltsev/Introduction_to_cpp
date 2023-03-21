@@ -10,7 +10,10 @@ all: build run
 	rm *.out
 
 build:
-	gcc main.cpp -o main.out
+	g++ main.cpp -o main.out
 
 run:
 	./main.out
+
+cat_rn:
+	g++ catclass.cpp -o cat.out
