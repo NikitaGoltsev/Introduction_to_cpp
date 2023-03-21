@@ -64,6 +64,21 @@ public:
 // Link to the function from class
 double Rectangle::perimeter() { return 2 * (length + width); }
 
+//Class 04 Constructors and destructors
+class Cat {
+
+  private:
+    std::string name;
+    std::string color;
+    std::string cats_toy;
+  public:
+    void print_cat(){
+      std::cout << "" << name << std::endl;
+      std::cout << "" << color << std::endl;
+      std::cout << "" << cats_toy << std::endl;
+    }
+};
+
 // Main function here to test classes
 int mian(int argc, char *argv[]) {
 
@@ -86,5 +101,8 @@ int mian(int argc, char *argv[]) {
 
   // Class 03
 
+  //Class 04
+
+  //
   return 0;
 }
