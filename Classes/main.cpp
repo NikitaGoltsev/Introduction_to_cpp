@@ -68,19 +68,19 @@ double Rectangle::perimeter() { return 2 * (length + width); }
 class Cat {
 
   private:
-    std::string name;
+    /*std::string name;
     std::string color;
-    std::string cats_toy;
+    std::string cats_toy;*/
   public:
     void print_cat(){
-      std::cout << "" << name << std::endl;
-      std::cout << "" << color << std::endl;
-      std::cout << "" << cats_toy << std::endl;
+      /*std::cout << "" << name << "\n";
+      std::cout << "" << color << "\n";
+      std::cout << "" << cats_toy << "\n";*/
     }
 };
 
 // Main function here to test classes
-int mian(int argc, char *argv[]) {
+int mian() {
 
   /* //Class 01
   // Work with class
@@ -100,9 +100,9 @@ int mian(int argc, char *argv[]) {
   //  that functions can protect private vars and funcions from something bad
 
   // Class 03
-
+  
   //Class 04
-
+  Cat obj01;
   //
   return 0;
 }
