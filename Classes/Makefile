@@ -17,3 +17,4 @@ run:
 
 cat_rn:
 	g++ catclass.cpp -o cat.out
+	./cat.out

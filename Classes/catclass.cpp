@@ -15,10 +15,24 @@ class Cat{
         }
 };
 
+// Constructurse (two examples)
+Cat(){
+    name = "Cat";
+    color = "Cat's";
+    cats_toy = "Avg_cat's toy";
+}
+Cat(string n){
+    name = n;
+    color = "Cat's";
+    cats_toy = "Avg_cat's toy";
+}
 // I need to write construction and deestruction here
 
 
 int main(){
 
+    Cat obj1;
+    obj1.print();
+    
     return 0;
 }
