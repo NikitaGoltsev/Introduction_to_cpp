@@ -64,19 +64,19 @@ public:
 // Link to the function from class
 double Rectangle::perimeter() { return 2 * (length + width); }
 
-//Class 04 Constructors and destructors
+// Class 04 Constructors and destructors
 class Cat {
 
-  private:
-    /*std::string name;
-    std::string color;
-    std::string cats_toy;*/
-  public:
-    void print_cat(){
-      /*std::cout << "" << name << "\n";
-      std::cout << "" << color << "\n";
-      std::cout << "" << cats_toy << "\n";*/
-    }
+private:
+  /*std::string name;
+  std::string color;
+  std::string cats_toy;*/
+public:
+  void print_cat() {
+    /*std::cout << "" << name << "\n";
+    std::cout << "" << color << "\n";
+    std::cout << "" << cats_toy << "\n";*/
+  }
 };
 
 // Main function here to test classes
@@ -100,8 +100,8 @@ int mian() {
   //  that functions can protect private vars and funcions from something bad
 
   // Class 03
-  
-  //Class 04
+
+  // Class 04
   Cat obj01;
   //
   return 0;
