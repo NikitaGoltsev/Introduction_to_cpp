@@ -1,4 +1,23 @@
 #include <iostream>
 #include <string>
 
-int main() { retunt 1; }
+class Rectangle {
+private:
+  int mn;
+  std::string descrip;
+
+public:
+  Rectangle() { mn = 10; }
+
+  Rectangle(int n) { mn = n; }
+  ~Rectangle();
+};
+
+int main() {
+
+  Rectangle array_of_obj[4] = {
+
+  };
+
+  retunt 0;
+}
