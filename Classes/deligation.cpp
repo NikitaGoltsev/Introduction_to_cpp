@@ -4,9 +4,12 @@
 class Rectangle {
 private:
   int mn;
-  std::string descrip;
+  char *descrip;
+  int length_d;
 
 public:
+  void print() {}
+
   Rectangle() { mn = 10; }
 
   Rectangle(int n) { mn = n; }
@@ -15,9 +18,8 @@ public:
 
 int main() {
 
-  Rectangle array_of_obj[4] = {
-
-  };
+  Rectangle array_of_obj[4] = {Rectangle(5), Rectangle(5), Rectangle(5),
+                               Rectangle(5)};
 
   retunt 0;
 }
